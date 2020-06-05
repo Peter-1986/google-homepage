@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style> 
+        ul.navlinks {
+            list-style-type: none;
+            color: black;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            display: flex;  
+            flex-direction: row;
+            justify-content: end;
+            font-size: 12px;
+        }
+        ul.navlinks li{
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+        ul.navlinks li.login{
+            margin-top: 5px;
+            margin-left: 10px;
+        }
+        .section1 {
+            margin: 0;
+            width: auto;
+        }
+        .section1 .logo {
+            display: block;
+            margin-top: 100px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 300px;
+        }
+        .section2 .searchbar {
+            display: block;
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 400px;
+        }
+        .form-search{
+            display: flex;
+            margin-top: 20px;
+            justify-content: center;
+            font-size: 15px;
+        }
+        .form-search input{
+            background-color: rgb(238, 236, 236);
+            color: rgb(104, 100, 100);
+            padding: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .footer{
+            display: flex;
+            margin-top: 75px;
+            justify-content: center;
+            font-size: 11px;
+        }
+        .footer .footerlogo{
+            width: 30px;
+            height: 40px;
+        }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar">
+            <ul class="navlinks">
+                <li><a href="https://mail.google.com/mail/?tab=wm&ogbl">Gmail</a></li>
+                <li><a href="https://www.google.nl/imghp?hl=nl&tab=wi&ogbl">Afbeeldingen</a></li>
+                <li><a href="https://www.google.nl/intl/nl/about/products?tab=wh">Google-Apps</a></li>
+                <li class="login"><input type="submit" value="Inloggen"></li>
+            </ul>
+        </nav>
+        <section class="section1">
+            <img class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="homepage logo">
+        </section>
+        <section class="section2">
+            <input class="searchbar"></input>
+        </section>
+        <form>
+            <div class="form-search">
+                <input type="submit" value="Google zoeken">
+                <input type="submit" value="Ik doe een gok">
+            </div>
+        </form>
+        <footer class="footer">
+            <img class="footerlogo" src="footerlogo.png" alt="footerlogo">
+            <p class="foottext">Wij zijn voor de gelijkheid van alle rassen en steunen iedereen die hiernaar zoekt</p>
+        </footer>
+    </body>
+</html>
+
+
+
+
+
+
